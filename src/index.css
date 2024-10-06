@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css2?family=Qwitcher+Grypen:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Satisfy&display=swap');
+
+.parallax {
+  
+    background-image: url('https://assets.dochipo.com/media/companies/dochipo/templates/62b4ba34f4368d611854d7bf/screenshot.png');
+  
+    height: 500px;
+  
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    
+    align-items: center;
+    color: white;
+    text-align: center;
+  }
+  .parallax1{
+    background-image: url('https://travelothon.com/wp-content/uploads/2022/06/How-to-start-a-blog-in-India-min.jpeg');
+    height: 500px;
+    width: 100%;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    
+    align-items: center;
+    color: white;
+    text-align: center;
+  }
+  
+  .parallax-content h1 {
+    font-size: 48px;
+    margin: 0;
+  }
+  
+  .parallax-content p {
+    font-size: 24px;
+    margin: 0;
+  }
+  /* header{
+    position: fixed;
+    color:red
+  } */
+  /*  */
+  @media screen and (max-width: 400px) {
+    #display1{
+        display: none;
+    }
+    #display2{
+        display: none;
+
+    }
+    #display3{
+        display: none;
+    }
+}
